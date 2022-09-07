@@ -56,7 +56,7 @@ form input {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.089);
     outline: none;
     padding: 15px 0;
-    width: 340px;
+    width: 300px;
     margin-top: 15px;
 }
 
@@ -68,6 +68,14 @@ form input[type=password]:focus {
     border: 1px solid black;
 }
 
+form input[type=submit] {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* estilizando textos do container */
+
 .fogot-container {
     text-align: right;
     margin-top: 10px;
@@ -78,13 +86,9 @@ form input[type=password]:focus {
     text-decoration: none;
 }
 
-form input[type=submit] {
-    color: white;
-    background-color: black;
-    cursor: pointer;
+.fogot-container a:hover {
+    border-bottom: 1px solid black;
 }
-
-/* estilizando textos do container */
 
 #createAccount {
     text-align: center;
@@ -93,6 +97,10 @@ form input[type=submit] {
 #createAccount p a {
     color: blue;
     text-decoration: none;
+}
+
+#createAccount a:hover {
+    border-bottom: 1px solid black;
 }
 
 /* estilizando footer */
