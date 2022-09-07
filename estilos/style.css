@@ -105,3 +105,12 @@ footer {
 footer p {
     color: black;
 }
+
+footer p a i {
+    text-decoration: none;
+    color: darkblue;
+}
+
+footer p a {
+    color: black;
+}
