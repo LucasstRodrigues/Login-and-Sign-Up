@@ -1,0 +1,28 @@
+/* Configurações gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Configurando posição dos elementos do header */
+
+#logo {
+    text-align: center;
+}
+#logo img {
+    width: 80px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
