@@ -15,12 +15,18 @@
                 <p>Enter your email address and password to access your account</p>
                 <form>
                     <input type="email" name="email" id="email" placeholder="Email" required><br>
+
                     <input type="password" name="password" id="password" placeholder="Password" required><br>
-                    <div class="fogot-container"><a href="#">Forgot Password?</a><br></div>
+
+                    <input class="remember" type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+
+                    <div class="fogot-container">
+                        <a href="#">Forgot Password?</a><br></div>
                     <input type="submit" value="Login">
                 </form>
                 <div id="createAccount">
-                    <p>Don't have a account? <a href="createAccount.html">Sign Up</a></p>
+                    <p>Don't have an account? <a href="createAccount.html">Sign Up</a></p>
                 </div>
             </main>
 
