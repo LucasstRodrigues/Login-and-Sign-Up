@@ -80,3 +80,51 @@ form label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(0, 0, 0, 0.74)
 }
+
+form input[type=email]:focus {
+    border: 1px solid black;
+}
+
+form input[type=password]:focus {
+    border: 1px solid black;
+}
+
+form input[type=submit] {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.login {
+    text-align: center;
+}
+
+.login p a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+.login p a:hover {
+    border-bottom: 1px solid black;
+}
+
+/* estilizando footer */
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer p {
+    color: black;
+}
+
+footer p a i {
+    text-decoration: none;
+    color: darkblue;
+}
+
+footer p a {
+    color: black;
+}
