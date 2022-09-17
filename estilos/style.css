@@ -27,6 +27,7 @@ hr {
 .container {
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 .header {
@@ -129,8 +130,11 @@ form input[type=submit] {
 /* estilizando footer */
 
 footer {
-    text-align: center;
-    margin-top: 35px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 footer p {
