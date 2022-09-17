@@ -27,7 +27,7 @@ hr {
 .container {
     width: 100%;
     height: 100vh;
-    position: relative;
+
 }
 
 .header {
@@ -130,11 +130,9 @@ form input[type=submit] {
 /* estilizando footer */
 
 footer {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    margin-top: 35px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 footer p {
@@ -153,13 +151,12 @@ footer p a {
 @media screen and (min-width: 480px) {
 
     #logo img {
-        
         width: 120px;
     }
 
     .login-container {
         width: 400px;
-        padding: 20px 0px;
+        padding: 5px 0px;
         box-shadow: 1px 1px 2px #00000096;
         outline: 1px solid #ddd;
         margin-top: 50px;
@@ -214,9 +211,4 @@ footer p a {
     .fogot-container {
         margin-right: 50px;
     }
-
-    footer{
-        margin-top: 100px;
-    }
-
 }
