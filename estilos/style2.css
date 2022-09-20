@@ -82,7 +82,7 @@ form input:not(.passwordC) {
 .alert-password {
     visibility: hidden;
     margin-top: 5px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .alert-password span {
