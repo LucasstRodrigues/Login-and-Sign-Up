@@ -11,27 +11,19 @@ html, body {
     height: 100vh;
 }
 
-hr {
-    display: none;
-}
-
 /* Configurando posição dos elementos do header */
 
 #logo {
-    display: none;
+    text-align: center;
+}
+
+#logo img {
+    width: 80px;
 }
 
 .logo2 {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
+    display: none;
 }
-
-.logo2 img {
-    width: 120px;
-    margin-right: auto;
-}
-
 
 .container {
     width: 100%;
@@ -167,7 +159,18 @@ footer p a {
 @media screen and (min-width: 480px) {
 
     #logo img {
+        display: none;
+    }
+
+    .logo2 {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .logo2 img {
         width: 120px;
+        margin-right: auto;
     }
 
     .create-container {
