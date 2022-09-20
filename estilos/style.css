@@ -11,10 +11,6 @@ html, body {
     height: 100vh;
 }
 
-hr {
-    display: none;
-}
-
 /* Configurando posição dos elementos do header */
 #logo {
     text-align: center;
@@ -182,11 +178,6 @@ footer p a {
         margin-left: 25px;
         margin-top: 20px;
     }
-
-    hr {
-        display: none;
-    }
-
     form input {
         margin-top: 0;
     }

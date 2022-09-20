@@ -18,11 +18,20 @@ hr {
 /* Configurando posição dos elementos do header */
 
 #logo {
+    display: none;
+}
+
+.logo2 {
+    display: block;
     text-align: center;
+    margin-top: 20px;
 }
-#logo img {
-    width: 80px;
+
+.logo2 img {
+    width: 120px;
+    margin-right: auto;
 }
+
 
 .container {
     width: 100%;
@@ -79,6 +88,7 @@ form input:not(.passwordC) {
 }
 
 .alert-password {
+    display: none;
     margin-top: 5px;
 }
 
@@ -98,6 +108,11 @@ form input[type=email]:focus {
 
 form input[type=password]:focus {
     border: 1px solid black;
+    
+}
+
+form input[type=password]:focus ~ .alert-password {
+    display: block;
 }
 
 form input[type=submit] {
@@ -153,12 +168,11 @@ footer p a {
 
     #logo img {
         width: 120px;
-        
     }
 
     .create-container {
         width: 350px;
-        padding: 20px 0px;
+        padding:  10px 0px 5px;
         box-shadow: 1px 1px 2px #00000096;
         outline: 1px solid #ddd;
         margin-top: 50px;
@@ -168,12 +182,6 @@ footer p a {
         width: 300px;
         margin-left: 25px;
         margin-top: 20px;
-    }
-
-    hr {
-        display: block;
-        width: 300px;
-        margin: auto;
     }
 
     form input {
