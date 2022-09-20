@@ -80,8 +80,9 @@ form input:not(.passwordC) {
 }
 
 .alert-password {
-    display: none;
+    visibility: hidden;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .alert-password span {
@@ -104,7 +105,7 @@ form input[type=password]:focus {
 }
 
 form input[type=password]:focus ~ .alert-password {
-    display: block;
+    visibility: visible;
 }
 
 form input[type=submit] {
@@ -170,7 +171,6 @@ footer p a {
     
     .logo2 img {
         width: 120px;
-        margin-right: auto;
     }
 
     .create-container {
